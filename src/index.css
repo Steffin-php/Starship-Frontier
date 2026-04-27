@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  background-color: #000;
+  color: #fff;
+  font-family: var(--font-mono);
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+
+/* Custom UI elements for the Sleek Interface theme */
+.vignette {
+  box-shadow: inset 0 0 150px rgba(0,0,0,0.9);
+}
+
+kbd {
+  font-family: var(--font-mono);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.1);
+}
